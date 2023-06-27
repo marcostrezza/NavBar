@@ -22,7 +22,7 @@ ul {
 }
 
 li {
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 a {
@@ -50,5 +50,9 @@ img { /*anhoo y alto de la imagen*/
     img {
         width: 60px;
         height: 60px;
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
     }
 }
