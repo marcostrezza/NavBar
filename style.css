@@ -52,7 +52,6 @@ img { /*anhoo y alto de la imagen*/
         height: 60px;
     }
     ul {
-        display: flex;
         justify-content: space-around;
     }
 }
