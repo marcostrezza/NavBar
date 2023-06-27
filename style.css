@@ -50,6 +50,7 @@ img { /*anhoo y alto de la imagen*/
     img { /*el ancho y alto de la imagen se reducira 10px*/
         width: 60px;
         height: 60px;
+        margin-right: 5px;
     }
     ul { /*los li se separan*/
         justify-content: space-around;
