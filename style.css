@@ -1,24 +1,24 @@
-body {
+body { /*fuente del body*/
     font-family: sans-serif;
 }
 
 header {
     background-color: #000000;
-    display: flex;
-    justify-content: space-between;
+    display: flex; /*coloca los elementos uno a la lado del otro*/
+    justify-content: space-between; /*separa los elementos*/
     padding: 5px;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+    display: flex; /*coloca la img y el h3 al lado*/
+    align-items: center; /*centra los elementos*/
 }
 
 nav,
 ul {
-    list-style: none;
+    list-style: none; /*sin marcador*/
     display: flex;
-    align-items: center;
+    align-items: center; /*centra las li y sus a*/
 }
 
 li {
@@ -26,19 +26,21 @@ li {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; /*sin subrrallado en los a*/
     color: #f0f8ff;
 }
 
-a:hover {
+a:hover { /*cambia de color*/
     color: #706677;
     cursor: pointer;
 }
 
-img {
+img { /*anhoo y alto de la imagen*/
     width: 70px;
     height: 70px;
 }
+
+/*RESPONSIVE*/
 
 @media (max-width: 600px) {
     header {
